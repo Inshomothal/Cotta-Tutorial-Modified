@@ -10,6 +10,10 @@ products:
   - minecraft
 ---
 
+# THIS IS A MODIFIED VERSION OF WHAT'S BELOW
+
+I've added an animation controller to the project to allow players to receive a sword and stack of dirt whenever they die. Outside of that addition, everything else is from the **"Break the Cotta!"** tutorial from Minecraft Learn
+
 # Minecraft TypeScript Starter Project
 
 This sample demonstrates a simple build process and TypeScript compilation for Minecraft. This readme shows how you can use Betas APIs experiment to build out simple gameplay styles. You can use this project as a starter for your own scripting projects.
