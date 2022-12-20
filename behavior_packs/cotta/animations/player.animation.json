@@ -1,0 +1,19 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.player.dead": {
+      "loop": false,
+      "animation_length": 1,
+      "timeline": {
+        "0.0": ["/say Oops! I died!"]
+      }
+    },
+    "animation.player.alive": {
+      "loop": false,
+      "animation_length": 1,
+      "timeline": {
+        "0.0": ["/say Wow! I'm alive!", "/give @p diamond_sword", "/give @p dirt 64"]
+      }
+    }
+  }
+}

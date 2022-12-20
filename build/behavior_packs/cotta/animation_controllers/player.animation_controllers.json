@@ -1,0 +1,27 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.dead": {
+      //controller to give players new sword and dirt
+      "states": {
+        "default": {
+          "animations": ["debug_alive"],
+          "transitions": [
+            {
+              "i_died": "!query.is_alive"
+            }
+          ]
+        },
+
+        "i_died": {
+          "animations": ["debug_dead"],
+          "transitions": [
+            {
+              "default": "query.is_alive"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

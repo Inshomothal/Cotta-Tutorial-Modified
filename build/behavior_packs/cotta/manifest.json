@@ -1,0 +1,26 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "The Cotta Script Project",
+    "description": "This is my learning experience with Typescript in Minecraft",
+    "uuid": "b954fecb-9930-4d20-8af0-7ecd39f348e3",
+    "version": [0, 0, 1],
+    "min_engine_version": [1, 19, 40]
+  },
+  "modules": [
+    {
+      "description": "Script resources",
+      "language": "javascript",
+      "type": "script",
+      "uuid": "a0b6d10c-a418-4378-8c03-a4503e397642",
+      "version": [0, 0, 1],
+      "entry": "scripts/main.js"
+    }
+  ],
+  "dependencies": [
+    {
+      "module_name": "@minecraft/server",
+      "version": "1.1.0-beta"
+    }
+  ]
+}
