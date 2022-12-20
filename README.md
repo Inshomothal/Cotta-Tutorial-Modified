@@ -12,7 +12,7 @@ products:
 
 # THIS IS A MODIFIED VERSION OF WHAT'S BELOW
 
-I've added an animation controller to the project to allow players to receive a sword and stack of dirt whenever they die. Outside of that addition, everything else is from the **"Break the Cotta!"** tutorial from Minecraft Learn
+I've added an animation controller to the project to allow players to receive a sword and stack of dirt whenever they die. Outside of that addition, everything else is from the **"Break the Cotta!"** tutorial from [Minecraft Learn] (https://learn.microsoft.com/en-us/minecraft/creator/documents/scriptinggettingstarted)
 
 # Minecraft TypeScript Starter Project
 
